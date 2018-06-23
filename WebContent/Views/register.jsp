@@ -56,5 +56,6 @@
 		</div>
 	</div>
 	<div class="col-sm-4"></div>
+	<%@include file="footer.html"%>
 </body>
 </html>
