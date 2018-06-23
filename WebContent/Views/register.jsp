@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Register</title>
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script
@@ -13,26 +13,12 @@
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">AmazeFlix</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li><a href="/CartApp/Views/login.jsp">Login</a></li>
-      <li><a href="/CartApp/Views/register.jsp">Create Account</a></li>
-      <li><a href="#">Products</a></li>
-      <li><a href="#">Wish List</a></li>
-      <li><a href="#">Cart</a></li>
-      
-    </ul>
-  </div>
-</nav>
+	<%@include file="header.html"%>
 	<div class="container">
 		<div class="col-sm-2"></div>
 		<div class="col-sm-6">
 			<h2>Register</h2>
-			<form class="form-horizontal" action="/" method="get">
+			<form class="form-horizontal" action="/RegisterServlet" method="post">
 				<div class="form-group">
 					<label class="control-label col-sm-2">User Name:</label>
 					<div class="col-sm-10">
